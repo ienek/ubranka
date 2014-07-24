@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 __author__ = 'ienek'
 
 from skimage import io, filter, feature

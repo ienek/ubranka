@@ -5,7 +5,7 @@ from skimage.color import rgb2gray
 
 from sklearn.feature_extraction import image
 # test to load any image
-test = io.imread('Downloads/fashion-data/images/0/n02854926/n02854926_28_0.jpg')
+test = io.imread('n02854926_28_0.jpg')
 
 # loading to array
 img_arr = image.img_to_graph(test)
